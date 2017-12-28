@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Main2Activity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="DD123123" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
