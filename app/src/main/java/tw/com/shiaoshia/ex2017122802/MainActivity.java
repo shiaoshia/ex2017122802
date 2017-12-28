@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     public void click1(View v){
         Intent it=new Intent();
         it.setAction("DD123123");
+        it=Intent.createChooser(it,"請選擇一個APP來執行!");
         startActivity(it);
     }
 
